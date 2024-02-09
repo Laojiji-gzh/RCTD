@@ -2,8 +2,6 @@
 
 ✅ Author: Anonymous
 
-✅ Concat: Anonymous
-
 ✅ Please cite this work if the code is used, thanks
 
 ### Datasets
