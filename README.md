@@ -1,8 +1,8 @@
-# RDTD Algorithm and Datasets of Our Paper
+# RCTD Algorithm and Datasets of Our Paper
 
-✅ Author: GongZhihai
+✅ Author: Anonymous
 
-✅ Concat: 222270029@hdu.edu.cn
+✅ Concat: Anonymous
 
 ✅ Please cite this work if the code is used, thanks
 
@@ -86,13 +86,13 @@ We use `;` to separate the path in **Windows**， and `:` to separate the path i
 ✅ **Windows OS**
 
 ```
-java -cp .\bin;.\lib\commons-math3-3.6.1.jar Run RDTD NLP 50 0.1 0.1 1 0.25 0.92 2
+java -cp .\bin;.\lib\commons-math3-3.6.1.jar Run RCTD NLP 50 0.1 0.1 1 0.25 0.92 2
 ```
 
 ✅ **Linux OS**:
 
 ```
-java -cp .\bin:.\lib\commons-math3-3.6.1.jar Run RDTD NLP 50 0.1 0.1 1 0.25 0.92 2
+java -cp .\bin:.\lib\commons-math3-3.6.1.jar Run RCTD NLP 50 0.1 0.1 1 0.25 0.92 2
 ```
 
 
@@ -103,7 +103,7 @@ java -cp .\bin:.\lib\commons-math3-3.6.1.jar Run RDTD NLP 50 0.1 0.1 1 0.25 0.92
 
 | Param  | Function                                                     | Optional                   | Example |
 | ------ | ------------------------------------------------------------ | -------------------------- | ------- |
-| arg[0] | specific the algorithm                                       | RDTD, CRH, MV, CATD        | RDTD    |
+| arg[0] | specific the algorithm                                       | RCTD, CRH, MV, CATD        | RCTD    |
 | arg[1] | Dataset                                                      | NLP, WS, SP, DOG           | WS      |
 | arg[2] | Number of Runs                                               | All integer number was OK, | 50      |
 | arg[3] | $\mu$ proportion of Sybil worker                             | 0 - 0.6                    | 0.4     |
